@@ -5,6 +5,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.Scanner;
 
 public class Main {
@@ -46,5 +47,6 @@ list.print();
         System.out.println(c);
         Date d = c.getTime();
         System.out.println(format.format(d));
+        GregorianCalendar t=new GregorianCalendar();
     }
 }
