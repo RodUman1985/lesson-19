@@ -44,5 +44,7 @@ list.print();
         c.add(Calendar.YEAR,1);
         c.add (Calendar.HOUR, -2);
         System.out.println(c);
+        Date d = c.getTime();
+        System.out.println(format.format(d));
     }
 }
